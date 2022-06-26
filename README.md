@@ -20,4 +20,4 @@ More likely than not, your currently installed Python version does not have `tki
 
 ## How to use
 Run the following:
-* `poetry run pytho
+* `python3 src/prettycolours.py`
