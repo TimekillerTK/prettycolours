@@ -20,6 +20,7 @@ def main():
 
     def bg_colour(event):
         frame['bg'] = colour_randomizer()
+        frame.after(100) # Delay to prevent spam
 
     # Exit program with CTRL+x
     window.bind_all("<Control-Key-x>", lambda close: window.destroy())
